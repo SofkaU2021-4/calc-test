@@ -1,4 +1,4 @@
 package co.com.sofka.app;
 
-public class hola {
+public class App {
 }
