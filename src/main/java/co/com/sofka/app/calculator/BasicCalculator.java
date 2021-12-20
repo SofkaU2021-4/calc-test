@@ -12,4 +12,14 @@ public class BasicCalculator {
         return number1 + number2;
     }
 
+    public Long resta(Long number1, Long number2) {
+        logger.info( "Subtracting {} - {}", number1, number2 );
+        return number1 - number2;
+    }
+
+    public Long multiply(Long number1, Long number2) {
+        logger.info( "Multiplying {} * {}", number1, number2 );
+        return number1 * number2;
+    }
+
 }
